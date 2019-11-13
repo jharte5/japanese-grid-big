@@ -1,3 +1,15 @@
 #app {
-    
+    height: 1000px;
+    width: 1500px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+}
+img {
+    height: 100%;
+    width: 100%;
+}
+
+#fishflag-1 {
+    grid-column: 1 / 3;
 }
